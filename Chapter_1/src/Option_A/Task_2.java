@@ -1,4 +1,4 @@
-package A;
+package Option_A;
 import java.util.Scanner;
 
 // Отображение в консоли символов в обратном порядке

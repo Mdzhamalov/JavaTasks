@@ -1,7 +1,6 @@
-package A;
+package Option_A;
 
 import java.util.Scanner;
-import java.io.IOException;
 
 public class Hello {
 
