@@ -6,8 +6,10 @@ public class Task_3 {
 
     public static void main(String[] args) {
 
-        int[] a = {1, 2, 3, 4, 5};
-        for (int i = 0, i < a; i++) {
+        int[] a = {1, 71, 85, 74, 34};
+        for (int i = 0; i < a.length; i++) {
+            System.out.println(i);
+            //System.out.print(i);
 
         }
 
