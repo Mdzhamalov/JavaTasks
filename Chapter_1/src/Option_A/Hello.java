@@ -2,17 +2,17 @@ package Option_A;
 
 import java.util.Scanner;
 
+//Поприветствовать пользователя, используя командную строку
 public class Hello {
 
-// Task 1. Поприветствовать пользователя, используя командную строку
     public static void main(String[] args) {
 
 
         Scanner name = new Scanner(System.in);
-        System.out.println("Print name: ");
+        System.out.print("Print name: ");
 
-        String firstname = name.nextLine();
-        System.out.println("Hello " + firstname);
+        String firstname = name.nextLine();  // read the value
+        System.out.println("Hello, " + firstname);
 
 //        System.out.println("Enter name: ");
 //        try {
