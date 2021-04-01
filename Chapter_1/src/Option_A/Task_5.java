@@ -11,17 +11,17 @@ public class Task_5 {
     public static void main(String[] args) {
 
         Scanner numbers = new Scanner(System.in);
-        System.out.print("Input numbers: ");
+        System.out.println("Input numbers: ");
 
-        int value = numbers.nextInt();
-        int sum = 0;
-        int com = 1;
-        while (value != 0) {
-            // Подсчет суммы чисел
-            sum = sum + value % 10;
-            value = value / 10;
+        for (int i = 0; true; i++) {
+            int a = numbers.nextInt();
+            int b = numbers.nextInt();
+
+            System.out.println("Sum is: " + (a + b));
+            System.out.println("Multiplication is: " + (a * b));
         }
-        System.out.println("Sum is: " + sum);
+
+
 
     }
 }

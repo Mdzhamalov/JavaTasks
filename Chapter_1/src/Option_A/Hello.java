@@ -11,7 +11,7 @@ public class Hello {
         Scanner name = new Scanner(System.in);
         System.out.print("Print name: ");
 
-        String firstname = name.nextLine();  // read the value
+        String firstname = name.next();  // read the value
         System.out.println("Hello, " + firstname);
 
 //        System.out.println("Enter name: ");
