@@ -4,8 +4,8 @@ import java.util.Date;
 import java.util.Scanner;
 
 // Вывести: фамилию разработчика +
-// дату и время получения задания
-// дату и время сдачи задания.
+// дату и время получения задания +
+// дату и время сдачи задания +
 public class Task_6 {
     public static void main(String[] args) {
 
@@ -23,7 +23,7 @@ public class Task_6 {
         // выводим дату окончания задания
         Date getDateOfFinishTask = new Date();
         long time = getDateOfFinishTask.getTime();
-        time = time + (1000*60*60*24);
+        time = time + (1000*60*60*72); // + 3 days
         getDateOfFinishTask = new Date(time);
         System.out.println("Finish date is: " + getDateOfFinishTask);
 
