@@ -9,18 +9,18 @@ import java.util.Scanner;
 public class Task_6 {
     public static void main(String[] args) {
 
-        // Выводим фамилию
+        // Input last name
         Scanner last_name = new Scanner(System.in);
         System.out.print("Print your last name: ");
         String input = last_name.next();
-        System.out.println("Your Last name is: " + input);
+        System.out.println("Last name is: " + input);
 
-        // выводим дату получения задания
+        // Start date
         Date getDateOfStartTask = new Date();
         getDateOfStartTask.getDate();
         System.out.println("Begin date is: " + getDateOfStartTask);
 
-        // выводим дату окончания задания
+        // Finish date
         Date getDateOfFinishTask = new Date();
         long time = getDateOfFinishTask.getTime();
         time = time + (1000*60*60*72); // + 3 days
