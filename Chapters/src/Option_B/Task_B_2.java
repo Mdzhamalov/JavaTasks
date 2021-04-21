@@ -12,21 +12,21 @@ public class Task_B_2 {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        int n = 6;
-        System.out.println("Введите " + n + " целых чисел через пробел: ");
-
+        System.out.println("Enter array length: ");
+        int n = input.nextInt();
         int[] InputedNumbers = new int[n];
+        System.out.println("Insert array elements: ");
 
         int max = InputedNumbers[0];
         for (int i = 0; i < n; i++) {
             InputedNumbers[i] = input.nextInt();
             max = Math.max(max, InputedNumbers[i]);
         }
-        System.out.println("Максимальное число: " + max);
+        System.out.println("Max number: " + max);
 
-        // Вывод наименьшего числа
+        // Display min number
         int min = Collections.min(Arrays.stream(InputedNumbers).boxed().collect(Collectors.toList()));
-        System.out.println("Минимальное число: " + min);
+        System.out.println("Min number: " + min);
 
     }
 }
