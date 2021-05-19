@@ -9,15 +9,15 @@ public class Task_A1 {
 
     public static void main(String[] args) {
 
-        System.out.println("Input the number of strings: ");
         int n; // the number of strings
         String[] text;
         Scanner scan = new Scanner(System.in);
+        System.out.println("Input the number of strings: ");
         if (scan.hasNextInt()) {
             n = Integer.parseInt(scan.nextLine());
             int indexMax = 0;
             int indexMin = 0;
-            text = new String[n]; //массив строк
+            text = new String[n]; // array of strings
 
             for (int i = 0; i < n; i++) {
                 text[i] = scan.nextLine();
@@ -27,8 +27,10 @@ public class Task_A1 {
                     indexMax = i;
 
             }
-            System.out.printf("MIN (%d): \"%s\"%n", text[indexMin].length (), text[indexMin]);
-            System.out.printf("MAX (%d): \"%s\"%n", text[indexMax].length (), text[indexMax]);
+            // System.out.printf("MIN (%d): \"%s\"%n", text[indexMin].length (), text[indexMin]);
+            // System.out.printf("MAX (%d): \"%s\"%n", text[indexMax].length (), text[indexMax]);
+            System.out.println("MIN is " + text[indexMin].length() + ", " + text[indexMin]);
+            System.out.println("MAX is " + text[indexMax].length() + ", " + text[indexMax]);
         }
 
     }
