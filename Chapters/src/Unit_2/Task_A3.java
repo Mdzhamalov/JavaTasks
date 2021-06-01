@@ -18,7 +18,7 @@ public class Task_A3 {
                 average = average + text[i].length();
             }
             average = average / n;
-            System.out.println("AVERAGE is: " + average);
+            System.out.println("AVERAGE length of strings is: " + average);
             for (int i = 0; i < n; i++) {
                 if (text[i].length() < average)
                     System.out.println("(" + text[i].length() + "): " + text[i]);

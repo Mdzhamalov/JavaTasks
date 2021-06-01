@@ -9,7 +9,7 @@ public class Task_A1 {
 
     public static void main(String[] args) {
 
-        int n; // the number of strings
+        int n; // number of strings
         String[] text;
         Scanner scan = new Scanner(System.in);
         System.out.println("Input the number of strings: ");
@@ -27,10 +27,8 @@ public class Task_A1 {
                     indexMax = i;
 
             }
-            // System.out.printf("MIN (%d): \"%s\"%n", text[indexMin].length (), text[indexMin]);
-            // System.out.printf("MAX (%d): \"%s\"%n", text[indexMax].length (), text[indexMax]);
-            System.out.println("MIN is " + text[indexMin].length() + ", " + text[indexMin]);
-            System.out.println("MAX is " + text[indexMax].length() + ", " + text[indexMax]);
+            System.out.println("MIN (" + text[indexMin].length() + "), " + text[indexMin]);
+            System.out.println("MAX is (" + text[indexMax].length() + "), " + text[indexMax]);
         }
 
     }
