@@ -17,7 +17,7 @@ public class Task_B_3 {
         for (int i = 0; i < n; i++) {
             InputedNumbers[i] = input.nextInt();
             if ((InputedNumbers[i] % 3 == 0) || (InputedNumbers[i] % 9 == 0))
-                System.out.println("Divides by 3 or 9: " + InputedNumbers[i]);
+                System.out.println("Divides by three or nine: " + InputedNumbers[i]);
         }
 
     }

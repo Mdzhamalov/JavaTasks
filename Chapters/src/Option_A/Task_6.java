@@ -23,7 +23,7 @@ public class Task_6 {
         // Finish date
         Date getDateOfFinishTask = new Date();
         long time = getDateOfFinishTask.getTime();
-        time = time + (1000*60*60*72); // + 3 days
+        time = time + (1000*60*60*24); // + 3 days
         getDateOfFinishTask = new Date(time);
         System.out.println("Finish date is: " + getDateOfFinishTask);
 

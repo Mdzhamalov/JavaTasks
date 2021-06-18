@@ -9,6 +9,8 @@ import java.util.Scanner;
 import java.util.stream.Collectors;
 
 public class Task_B_2 {
+
+
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -29,4 +31,5 @@ public class Task_B_2 {
         System.out.println("Min number: " + min);
 
     }
+
 }
