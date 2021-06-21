@@ -19,11 +19,19 @@ public class EncapTest {
     }
 
     public void setAge(int newAge) {
-        age = newAge;
+        if (newAge < 0) {
+            System.out.println("Incorrect age");
+        }
+        else {
+            age = newAge;
+        }
     }
 
     public void setName(String newName) {
-        name = newName;
+        if (newName.isEmpty()){
+            System.out.println("There is empty name");
+        }
+        else {name = newName;}
     }
 
     public void setIdNum(String newId) {
