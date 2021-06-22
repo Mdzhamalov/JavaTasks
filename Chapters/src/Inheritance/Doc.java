@@ -1,7 +1,7 @@
 package Inheritance;
 
 public class Doc extends Animal {
-    
+
     public void bark() {
         System.out.println("Barking");
     }
