@@ -9,7 +9,6 @@ public class SuperClass {
         dog.eat();
         dog.sleep();
         dog.bark();
-
-
+        dog.DocsName("Tommy");
     }
 }
