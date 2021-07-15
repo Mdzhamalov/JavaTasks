@@ -1,4 +1,4 @@
-package Compare;
+package Lessons;
 
 public class If {
 

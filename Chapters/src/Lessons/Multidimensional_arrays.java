@@ -1,4 +1,4 @@
-package Compare;
+package Lessons;
 
 public class Multidimensional_arrays {
     public static void main(String[] args) {
