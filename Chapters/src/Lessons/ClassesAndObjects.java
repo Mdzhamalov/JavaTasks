@@ -42,10 +42,6 @@ class Person {
             System.out.println("My name is " + name + ", " + "I'm " + age + " years old!");
     }
 
-    void sayHello(){
-        System.out.println("Hello!");
-    }
-
     int calculateYearsToRetirement(){
         int years = 65 - age;
         return years;

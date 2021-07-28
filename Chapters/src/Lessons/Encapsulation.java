@@ -6,15 +6,11 @@ public class Encapsulation {
         Users boy1 = new Users();
         boy1.setName("Tom");
         boy1.setAge(23);
-
-
-
     }
 }
 
 
-
-class Users{
+class Users {
     private String name;
     private int age;
 
@@ -41,7 +37,6 @@ class Users{
     public int getAge(){
         return age;
     }
-
 
     int calculateYearsToRetirement(){
         int years = 65 - age;
